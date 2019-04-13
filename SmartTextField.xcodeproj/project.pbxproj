@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DE252CD2261A2A20099C5EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE252CC2261A2A20099C5EF /* AppDelegate.swift */; };
+		2DE252CF2261A2A20099C5EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE252CE2261A2A20099C5EF /* ViewController.swift */; };
+		2DE252D22261A2A20099C5EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE252D02261A2A20099C5EF /* Main.storyboard */; };
+		2DE252D42261A2A40099C5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE252D32261A2A40099C5EF /* Assets.xcassets */; };
+		2DE252D72261A2A40099C5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE252D52261A2A40099C5EF /* LaunchScreen.storyboard */; };
+		2DE252E22261A2A40099C5EF /* SmartTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE252E12261A2A40099C5EF /* SmartTextFieldTests.swift */; };
+		2DE252ED2261A2A40099C5EF /* SmartTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE252EC2261A2A40099C5EF /* SmartTextFieldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DE252DE2261A2A40099C5EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DE252C12261A2A20099C5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE252C82261A2A20099C5EF;
+			remoteInfo = SmartTextField;
+		};
+		2DE252E92261A2A40099C5EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DE252C12261A2A20099C5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE252C82261A2A20099C5EF;
+			remoteInfo = SmartTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DE252C92261A2A20099C5EF /* SmartTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE252CC2261A2A20099C5EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DE252CE2261A2A20099C5EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DE252D12261A2A20099C5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DE252D32261A2A40099C5EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DE252D62261A2A40099C5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DE252D82261A2A40099C5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE252DD2261A2A40099C5EF /* SmartTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE252E12261A2A40099C5EF /* SmartTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartTextFieldTests.swift; sourceTree = "<group>"; };
+		2DE252E32261A2A40099C5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE252E82261A2A40099C5EF /* SmartTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE252EC2261A2A40099C5EF /* SmartTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartTextFieldUITests.swift; sourceTree = "<group>"; };
+		2DE252EE2261A2A40099C5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DE252C62261A2A20099C5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE252DA2261A2A40099C5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE252E52261A2A40099C5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DE252C02261A2A20099C5EF = {
+			isa = PBXGroup;
+			children = (
+				2DE252CB2261A2A20099C5EF /* SmartTextField */,
+				2DE252E02261A2A40099C5EF /* SmartTextFieldTests */,
+				2DE252EB2261A2A40099C5EF /* SmartTextFieldUITests */,
+				2DE252CA2261A2A20099C5EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DE252CA2261A2A20099C5EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DE252C92261A2A20099C5EF /* SmartTextField.app */,
+				2DE252DD2261A2A40099C5EF /* SmartTextFieldTests.xctest */,
+				2DE252E82261A2A40099C5EF /* SmartTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DE252CB2261A2A20099C5EF /* SmartTextField */ = {
+			isa = PBXGroup;
+			children = (
+				2DE252CC2261A2A20099C5EF /* AppDelegate.swift */,
+				2DE252CE2261A2A20099C5EF /* ViewController.swift */,
+				2DE252D02261A2A20099C5EF /* Main.storyboard */,
+				2DE252D32261A2A40099C5EF /* Assets.xcassets */,
+				2DE252D52261A2A40099C5EF /* LaunchScreen.storyboard */,
+				2DE252D82261A2A40099C5EF /* Info.plist */,
+			);
+			path = SmartTextField;
+			sourceTree = "<group>";
+		};
+		2DE252E02261A2A40099C5EF /* SmartTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DE252E12261A2A40099C5EF /* SmartTextFieldTests.swift */,
+				2DE252E32261A2A40099C5EF /* Info.plist */,
+			);
+			path = SmartTextFieldTests;
+			sourceTree = "<group>";
+		};
+		2DE252EB2261A2A40099C5EF /* SmartTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DE252EC2261A2A40099C5EF /* SmartTextFieldUITests.swift */,
+				2DE252EE2261A2A40099C5EF /* Info.plist */,
+			);
+			path = SmartTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DE252C82261A2A20099C5EF /* SmartTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE252F12261A2A40099C5EF /* Build configuration list for PBXNativeTarget "SmartTextField" */;
+			buildPhases = (
+				2DE252C52261A2A20099C5EF /* Sources */,
+				2DE252C62261A2A20099C5EF /* Frameworks */,
+				2DE252C72261A2A20099C5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartTextField;
+			productName = SmartTextField;
+			productReference = 2DE252C92261A2A20099C5EF /* SmartTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DE252DC2261A2A40099C5EF /* SmartTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE252F42261A2A40099C5EF /* Build configuration list for PBXNativeTarget "SmartTextFieldTests" */;
+			buildPhases = (
+				2DE252D92261A2A40099C5EF /* Sources */,
+				2DE252DA2261A2A40099C5EF /* Frameworks */,
+				2DE252DB2261A2A40099C5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DE252DF2261A2A40099C5EF /* PBXTargetDependency */,
+			);
+			name = SmartTextFieldTests;
+			productName = SmartTextFieldTests;
+			productReference = 2DE252DD2261A2A40099C5EF /* SmartTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DE252E72261A2A40099C5EF /* SmartTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE252F72261A2A40099C5EF /* Build configuration list for PBXNativeTarget "SmartTextFieldUITests" */;
+			buildPhases = (
+				2DE252E42261A2A40099C5EF /* Sources */,
+				2DE252E52261A2A40099C5EF /* Frameworks */,
+				2DE252E62261A2A40099C5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DE252EA2261A2A40099C5EF /* PBXTargetDependency */,
+			);
+			name = SmartTextFieldUITests;
+			productName = SmartTextFieldUITests;
+			productReference = 2DE252E82261A2A40099C5EF /* SmartTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DE252C12261A2A20099C5EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nutan Niraula";
+				TargetAttributes = {
+					2DE252C82261A2A20099C5EF = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					2DE252DC2261A2A40099C5EF = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 2DE252C82261A2A20099C5EF;
+					};
+					2DE252E72261A2A40099C5EF = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 2DE252C82261A2A20099C5EF;
+					};
+				};
+			};
+			buildConfigurationList = 2DE252C42261A2A20099C5EF /* Build configuration list for PBXProject "SmartTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DE252C02261A2A20099C5EF;
+			productRefGroup = 2DE252CA2261A2A20099C5EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DE252C82261A2A20099C5EF /* SmartTextField */,
+				2DE252DC2261A2A40099C5EF /* SmartTextFieldTests */,
+				2DE252E72261A2A40099C5EF /* SmartTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DE252C72261A2A20099C5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE252D72261A2A40099C5EF /* LaunchScreen.storyboard in Resources */,
+				2DE252D42261A2A40099C5EF /* Assets.xcassets in Resources */,
+				2DE252D22261A2A20099C5EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE252DB2261A2A40099C5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE252E62261A2A40099C5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DE252C52261A2A20099C5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE252CF2261A2A20099C5EF /* ViewController.swift in Sources */,
+				2DE252CD2261A2A20099C5EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE252D92261A2A40099C5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE252E22261A2A40099C5EF /* SmartTextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE252E42261A2A40099C5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE252ED2261A2A40099C5EF /* SmartTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DE252DF2261A2A40099C5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DE252C82261A2A20099C5EF /* SmartTextField */;
+			targetProxy = 2DE252DE2261A2A40099C5EF /* PBXContainerItemProxy */;
+		};
+		2DE252EA2261A2A40099C5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DE252C82261A2A20099C5EF /* SmartTextField */;
+			targetProxy = 2DE252E92261A2A40099C5EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DE252D02261A2A20099C5EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE252D12261A2A20099C5EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DE252D52261A2A40099C5EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE252D62261A2A40099C5EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DE252EF2261A2A40099C5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DE252F02261A2A40099C5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DE252F22261A2A40099C5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ6X2P729Y;
+				INFOPLIST_FILE = SmartTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testLabs.SmartTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DE252F32261A2A40099C5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ6X2P729Y;
+				INFOPLIST_FILE = SmartTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testLabs.SmartTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DE252F52261A2A40099C5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ6X2P729Y;
+				INFOPLIST_FILE = SmartTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testLabs.SmartTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartTextField.app/SmartTextField";
+			};
+			name = Debug;
+		};
+		2DE252F62261A2A40099C5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ6X2P729Y;
+				INFOPLIST_FILE = SmartTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testLabs.SmartTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartTextField.app/SmartTextField";
+			};
+			name = Release;
+		};
+		2DE252F82261A2A40099C5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ6X2P729Y;
+				INFOPLIST_FILE = SmartTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testLabs.SmartTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartTextField;
+			};
+			name = Debug;
+		};
+		2DE252F92261A2A40099C5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ6X2P729Y;
+				INFOPLIST_FILE = SmartTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testLabs.SmartTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DE252C42261A2A20099C5EF /* Build configuration list for PBXProject "SmartTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE252EF2261A2A40099C5EF /* Debug */,
+				2DE252F02261A2A40099C5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE252F12261A2A40099C5EF /* Build configuration list for PBXNativeTarget "SmartTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE252F22261A2A40099C5EF /* Debug */,
+				2DE252F32261A2A40099C5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE252F42261A2A40099C5EF /* Build configuration list for PBXNativeTarget "SmartTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE252F52261A2A40099C5EF /* Debug */,
+				2DE252F62261A2A40099C5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE252F72261A2A40099C5EF /* Build configuration list for PBXNativeTarget "SmartTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE252F82261A2A40099C5EF /* Debug */,
+				2DE252F92261A2A40099C5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DE252C12261A2A20099C5EF /* Project object */;
+}
