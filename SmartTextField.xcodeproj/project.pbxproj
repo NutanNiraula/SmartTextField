@@ -14,6 +14,13 @@
 		2DE252D72261A2A40099C5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE252D52261A2A40099C5EF /* LaunchScreen.storyboard */; };
 		2DE252E22261A2A40099C5EF /* SmartTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE252E12261A2A40099C5EF /* SmartTextFieldTests.swift */; };
 		2DE252ED2261A2A40099C5EF /* SmartTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE252EC2261A2A40099C5EF /* SmartTextFieldUITests.swift */; };
+		2DE252FB226335D00099C5EF /* TextType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE252FA226335D00099C5EF /* TextType.swift */; };
+		2DE252FD22634CBF0099C5EF /* SmartTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE252FC22634CBF0099C5EF /* SmartTextField.swift */; };
+		2DE252FF22634CEF0099C5EF /* TextValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE252FE22634CEF0099C5EF /* TextValidationRule.swift */; };
+		2DE2530222634EF70099C5EF /* HighlightedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2530122634EF70099C5EF /* HighlightedTextField.swift */; };
+		2DE2530422634F2B0099C5EF /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2530322634F2B0099C5EF /* Validator.swift */; };
+		2DE2530622634F800099C5EF /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2530522634F800099C5EF /* AppColors.swift */; };
+		2DE25308226354AD0099C5EF /* SmartTextFieldIAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE25307226354AD0099C5EF /* SmartTextFieldIAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		2DE252E82261A2A40099C5EF /* SmartTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE252EC2261A2A40099C5EF /* SmartTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartTextFieldUITests.swift; sourceTree = "<group>"; };
 		2DE252EE2261A2A40099C5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE252FA226335D00099C5EF /* TextType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextType.swift; sourceTree = "<group>"; };
+		2DE252FC22634CBF0099C5EF /* SmartTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartTextField.swift; sourceTree = "<group>"; };
+		2DE252FE22634CEF0099C5EF /* TextValidationRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextValidationRule.swift; sourceTree = "<group>"; };
+		2DE2530122634EF70099C5EF /* HighlightedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightedTextField.swift; sourceTree = "<group>"; };
+		2DE2530322634F2B0099C5EF /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		2DE2530522634F800099C5EF /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		2DE25307226354AD0099C5EF /* SmartTextFieldIAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SmartTextFieldIAssets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,9 @@
 				2DE252D32261A2A40099C5EF /* Assets.xcassets */,
 				2DE252D52261A2A40099C5EF /* LaunchScreen.storyboard */,
 				2DE252D82261A2A40099C5EF /* Info.plist */,
+				2DE2530022634DB20099C5EF /* Source */,
+				2DE2530122634EF70099C5EF /* HighlightedTextField.swift */,
+				2DE2530522634F800099C5EF /* AppColors.swift */,
 			);
 			path = SmartTextField;
 			sourceTree = "<group>";
@@ -123,6 +140,18 @@
 				2DE252EE2261A2A40099C5EF /* Info.plist */,
 			);
 			path = SmartTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		2DE2530022634DB20099C5EF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2DE252FA226335D00099C5EF /* TextType.swift */,
+				2DE252FC22634CBF0099C5EF /* SmartTextField.swift */,
+				2DE252FE22634CEF0099C5EF /* TextValidationRule.swift */,
+				2DE2530322634F2B0099C5EF /* Validator.swift */,
+				2DE25307226354AD0099C5EF /* SmartTextFieldIAssets.xcassets */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +260,7 @@
 			files = (
 				2DE252D72261A2A40099C5EF /* LaunchScreen.storyboard in Resources */,
 				2DE252D42261A2A40099C5EF /* Assets.xcassets in Resources */,
+				2DE25308226354AD0099C5EF /* SmartTextFieldIAssets.xcassets in Resources */,
 				2DE252D22261A2A20099C5EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +287,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DE252CF2261A2A20099C5EF /* ViewController.swift in Sources */,
+				2DE252FB226335D00099C5EF /* TextType.swift in Sources */,
 				2DE252CD2261A2A20099C5EF /* AppDelegate.swift in Sources */,
+				2DE252FF22634CEF0099C5EF /* TextValidationRule.swift in Sources */,
+				2DE2530422634F2B0099C5EF /* Validator.swift in Sources */,
+				2DE2530622634F800099C5EF /* AppColors.swift in Sources */,
+				2DE252FD22634CBF0099C5EF /* SmartTextField.swift in Sources */,
+				2DE2530222634EF70099C5EF /* HighlightedTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
